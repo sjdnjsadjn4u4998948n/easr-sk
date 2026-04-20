@@ -14,11 +14,11 @@
 
 
     <meta name="robots" content="index, follow">
- <link rel="canonical" href="https://casino-online.easr.sk/">
+ <link rel="canonical" href="https://casino-zahranicne.easr.sk/">
          <link rel="alternate" hreflang="x-default" href="https://www.easr.sk/" />
-<link rel="alternate" hreflang="sk-SK" href="https://casino-online.easr.sk/" />        <meta property="og:title" content="Zahraničné Online Casino pre Slovákov 2026 - TOP Kasína bez Licencie">
+<link rel="alternate" hreflang="sk-SK" href="https://casino-zahranicne.easr.sk/" />        <meta property="og:title" content="Zahraničné Online Casino pre Slovákov 2026 - TOP Kasína bez Licencie">
     <meta property="og:description" content="Najlepšie zahraničné online casino pre Slovákov v roku 2026. Overené kasína s Curacao licenciou, expresné výbery do 24 hodín a bonusy až do 1.200€.">
-    <meta property="og:url" content="https://casino-online.easr.sk/">
+    <meta property="og:url" content="https://casino-zahranicne.easr.sk/">
             <meta property="og:image" content="img/8eddbee17c8e315b757a825caf9fe497.webp">
         <meta property="og:image:secure_url" content="img/8eddbee17c8e315b757a825caf9fe497.webp">
     
@@ -548,7 +548,7 @@ padding: 0!important;
            transform:scale(1.05);
         }
         
- @media (max-width: 769px) {
+ @media (max-width: 1024px) {
      .h-a84b1e{
                position: fixed;
     bottom:75px;
@@ -1631,15 +1631,16 @@ max-width: 70px;
                 padding-top: 80px;
             }
         }
-        
+        @media screen and (max-width:1200px){
+             table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
         @media (max-width: 768px) {
           
             
-            table {
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
-            }
+           
             
             .z-fb07e2 thead th {
                 font-size: 14px;
@@ -1954,10 +1955,252 @@ max-width: 70px;
             .r-2a9854 {
                 flex-direction: column;
             }
-            .b-986421, 
+            .b-986421,
             .e-8d9347 {
                 width: 100%;
             }
+        }
+
+        /* ===== SHIMMER ANIMATION ON BTN_PLAY ===== */
+        @keyframes x-f13543shimmer {
+            0%   { transform: translateX(-130%) skewX(-20deg); }
+            100% { transform: translateX(230%)  skewX(-20deg); }
+        }
+        .x-f13543 {
+            position: relative;
+            overflow: hidden;
+        }
+        .x-f13543::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 45%; height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.28), transparent);
+            animation: x-f13543shimmer 2.8s ease-in-out infinite;
+            animation-delay: var(--shimmer-delay, 0s);
+            pointer-events: none;
+        }
+
+        /* ===== CASINO VARIATION 4 (Horizontal Wide) ===== */
+        .k-d568bf {
+            display: grid;
+            grid-template-columns: 170px 1fr auto;
+            align-items: center;
+            background: #fdfaf5;
+            color: #000000;
+            border-radius: 30px;
+            margin-bottom: 14px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+            min-height: 100px;
+        }
+        .g-91ecdc {
+            position: absolute;
+            top: 0;
+            left: 5px;
+            z-index: 2;
+            line-height: 1;
+        }
+        .g-91ecdc img {
+            width: 32px;
+            height: 38px;
+            display: block;
+        }
+        .g-91ecdc span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #b87830;
+            color: #ffffff;
+            width: 26px;
+            height: 26px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        .y-f7c952 {
+            background: #0e1028;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+            height: 100%;
+            min-height: 100px;
+        }
+        .y-f7c952 img {
+            max-height: 105px;
+            max-width: 140px;
+            object-fit: contain;
+        }
+        .g-e61a83 {
+            padding: 14px 22px;
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .p-4f2bab {
+            font-size: 17px;
+            font-weight: 700;
+            color: #000000;
+        }
+        .w-fd0c82 {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            color: #000000;
+        }
+        .a-7b6685 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #000000;
+            border: 1px solid #5c4020;
+            border-radius: 6px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            justify-content: center;
+            background: rgba(0,0,0,0.04);
+            height: fit-content;
+            border-radius: 30px;
+        }
+        .b-c87bf5 {
+            list-style: none;
+            padding: 6px 10px;
+            margin: 4px 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px 14px;
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        .b-c87bf5 li::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: #b87830;
+            opacity: 0.12;
+            z-index: 0;
+            border-radius: 6px;
+        }
+        .b-c87bf5 li {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 5px;
+            color: #000000;
+            position: relative;
+            z-index: 1;
+            border-radius: 30px;
+        }
+        .b-c87bf5 li::before {
+            content: "✅";
+            color: ;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .t-47803d {
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .t-47803d a {
+            display: block;
+            padding: 14px 30px;
+            background: #b87830;
+            color: #ffffff !important;
+            font-weight: 700;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 15px;
+            text-transform: uppercase;
+            text-align: center;
+            transition: 0.3s;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+        .t-47803d a::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 45%; height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.28), transparent);
+            animation: x-f13543shimmer 2.8s ease-in-out infinite;
+            animation-delay: var(--shimmer-delay, 0s);
+            pointer-events: none;
+        }
+        .t-47803d a:hover { transform: scale(1.03); }
+        @media (max-width: 1024px) {
+            .g-e61a83 {
+                grid-template-columns: 1fr;
+            }
+            .g-91ecdc {
+                left: 20px;
+            }
+            .k-d568bf {
+                grid-template-columns: 1fr;
+            }
+            .y-f7c952 {
+                min-height: 80px;
+                padding: 16px;
+            }
+            .t-47803d {
+                padding-bottom: 16px;
+            }
+            .t-47803d a {
+                width: 100%;
+            }
+        }
+
+        /* ===== CASINO V4 FOOTER STRIP ===== */
+        .h-c24267 {
+            grid-column: 1 / -1;
+            border-top: 1px solid #5c4020;
+            display: flex;
+            align-items: center;
+            padding: 6px 16px;
+            gap: 12px;
+            font-size: 10.5px;
+            color: #000000;
+        }
+        .h-c24267 .v4-disclaimer { flex: 1; }
+        .b-b90833 {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11px;
+        }
+        .q-0ea9c2 {
+            position: relative;
+            display: inline-flex;
+            flex-shrink: 0;
+        }
+        .q-0ea9c2 img {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .r-97a105 {
+            position: absolute;
+            bottom: -2px;
+            right: -3px;
+            background: #1d9bf0;
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid rgba(255,255,255,0.9);
         }
     </style>
     
@@ -2021,7 +2264,7 @@ max-width: 70px;
                                                                     <strong>Lukáš Mináč</strong>
                                                                             &middot; <span class="f-e59fe0">Herný novinár</span>
                                                                                                     <div class="v-2a10b3">
-                                    <span>Posledná aktualizácia: 13 apríla 2026</span>
+                                    <span>Posledná aktualizácia: 20 apríla 2026</span>
                                                                             &middot; <span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
                                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
                                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
@@ -2081,7 +2324,7 @@ max-width: 70px;
                                             <span class="p-473f8c">5/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/amazing592/kingmaker/"
+                                                                                                                                            <a href="/best987/kingmaker/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2124,7 +2367,7 @@ max-width: 70px;
                                             <span class="p-473f8c">5/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/top709/bigclash/"
+                                                                                                                                            <a href="/game717/bigclash/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2162,7 +2405,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.9/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/premium636/alfcasino/"
+                                                                                                                                            <a href="/lucky991/alfcasino/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2205,7 +2448,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.9/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/game724/lizaro/"
+                                                                                                                                            <a href="/top395/lizaro/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2243,7 +2486,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.9/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/amazing451/spingranny/"
+                                                                                                                                            <a href="/game322/spingranny/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2281,7 +2524,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/ultra431/cleobetra/"
+                                                                                                                                            <a href="/bonus214/cleobetra/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2319,7 +2562,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/play905/dudespin/"
+                                                                                                                                            <a href="/mega131/dudespin/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2357,7 +2600,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/best987/dragonia/"
+                                                                                                                                            <a href="/lucky264/dragonia/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2395,7 +2638,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/game717/bankonbet/"
+                                                                                                                                            <a href="/ultra716/bankonbet/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2433,7 +2676,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/lucky991/spinwinera/"
+                                                                                                                                            <a href="/play499/spinwinera/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2471,7 +2714,7 @@ max-width: 70px;
                                             <span class="p-473f8c">4.8/5</span><span class="b-b95fbc"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24"><defs><linearGradient id="half"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="#ccc"/></linearGradient></defs><path fill="url(#half)" d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>                                        </td>
 
                                         <td class="s-673172">
-                                                                                                                                            <a href="/top395/legiano/"
+                                                                                                                                            <a href="/exclusive112/legiano/"
                                                     class="x-f13543"
                                                     target="_blank">
                                                     Hrať teraz                                                </a>
@@ -2488,8 +2731,8 @@ max-width: 70px;
     "@type": "WebPage",
     "name": "Zahraničné Online Casino pre Slovákov – Kompletný Sprievodca 2026",
     "description": "Podľa aktuálnych prieskumov z februára 2026 sa počet slovenských hráčov registrujúcich sa v zahraničných online kasínach zvýšil o 38% v porovnaní s rokom 2025. Tento nárast súvisí",
-    "datePublished": "2026-04-13",
-    "dateModified": "2026-04-13",
+    "datePublished": "2026-04-20",
+    "dateModified": "2026-04-20",
     "author": {
         "@type": "Person",
         "name": "Lukáš Mináč"
@@ -2505,7 +2748,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Kingmaker",
-                    "description": "500 € a 50 šancí vyhrať až 1 000 000 €"
+                    "description": "500 € + 50 pokusov o výhru 1 000 000 €"
                 }
             },
             {
@@ -2514,7 +2757,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "BigClash",
-                    "description": "100% až 500 € + 200 FS + 1 Bonus Crab"
+                    "description": "100% až do 500 € + 200 FS + 1 Bonus Crab"
                 }
             },
             {
@@ -2523,7 +2766,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "AlfCasino",
-                    "description": "100% AŽ DO 500 € + 200 FS + 1 BONUS CRAB"
+                    "description": "100% AŽ 500 € + 200 FS + 1 BONUS CRAB"
                 }
             },
             {
@@ -2541,7 +2784,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "SpinGranny",
-                    "description": "AŽ 2 500 € + 350 Spiny"
+                    "description": "AŽ do 2 500 € + 350 Spiny"
                 }
             },
             {
@@ -2550,7 +2793,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Cleobetra",
-                    "description": "AŽ DO 1 000 € + 350 Free Spins"
+                    "description": "1 000 € + 350 Free Spins"
                 }
             },
             {
@@ -2568,7 +2811,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Dragonia",
-                    "description": "100% až do 500 € + 200 FS + 1 Bonus Crab"
+                    "description": "100% do 500 € + 200 FS + 1 Bonus Crab"
                 }
             },
             {
@@ -2577,7 +2820,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "BankonBet",
-                    "description": "200% až 3 000 USDT"
+                    "description": "200% do 3 000 USDT"
                 }
             },
             {
@@ -2586,7 +2829,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "SpinWinera",
-                    "description": "AŽ 3 000 € + 150 zatočení"
+                    "description": "AŽ do 3 000 € + 150 zatočení"
                 }
             },
             {
@@ -2595,7 +2838,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Legiano",
-                    "description": "100% DO 500 € + 200 FS + 1 BONUS CRAB"
+                    "description": "100% AŽ 500 € + 200 FS + 1 BONUS CRAB"
                 }
             }
         ]
@@ -2973,38 +3216,47 @@ max-width: 70px;
                         <ul class="b-986421">
                                                                                                 <li>
                                         
+                                                                                            <img src="img/3b968fb15a8fb47fcc86ed1ebd9a84e5.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/a556fbbedef0961ffbf8a33e1c8abe65.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/ee22a546f708ea4b3de56e20a547071e.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/7f3d5667fbf7150429d30bfff1625bb9.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/56fe7abfb98dfe41df6e105f7006deb6.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/f449e4c36048e7ae2dc4a6c44142e1c8.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/6298c4ed62af6f9476e32bb5f57d075e.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/5cb2cc7a8b27c690c50f9b3f474ff8b5.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/5a95ef6c8ab85c59cb0c4b02fb739d54.svg" alt="Payment Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                                     </ul>
@@ -3013,30 +3265,37 @@ max-width: 70px;
                         <ul class="e-8d9347">
                                                                                                 <li>
                                         
+                                                                                            <img src="img/5e4f6d080aa57bb356581b155d505ff2.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/cac87993eb5cc32d2799b4a6c1beb5bb.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/23e47c167029d184a7ca91dda2941bf7.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/a4059223d2ab8fe6e7759ceba4ec53dc.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/5ba38238244aeba47eba4e7f705b24e1.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/540dfce4a77047dcc98bf8e6322eed43.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                     <li>
                                         
+                                                                                            <img src="img/d80ab53a20b19c7982269d7dd9ddff2a.webp" alt="Partner Option" style="max-height: 40px;">
                                             
                                                                                 </li>
                                                                                     </ul>
@@ -3057,7 +3316,7 @@ max-width: 70px;
                             <p class="w-a5400e">500 € + 50 pokusov o výhru 1 000 000 €</p>
                         </div>
                     </div>
-                    <a href="/new442/kingmaker/" style="background: #b87830 !important;">
+                    <a href="/best361/kingmaker/" style="background: #b87830 !important;">
                         Hrať teraz                    </a>
                 </div>
             </div>
